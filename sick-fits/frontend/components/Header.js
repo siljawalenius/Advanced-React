@@ -13,10 +13,11 @@ const Logo = styled.h1`
     transform: skew(-7deg);
     
     background: red;
+
     a{
         color: white;
         text-decoration:none;
-        text-transform: uppervcase;
+        text-transform: uppercase;
         padding: 0.5rem 1rem;
     }
 `;
@@ -27,7 +28,7 @@ const HeaderStyles = styled.header`
         display:grid;
         grid-template-columns: auto 1fr;
         justify-content: space-between;
-        align-items: center
+        align-items: stretch
     }
     .sub-bar{
         display:grid;
@@ -47,18 +48,15 @@ export default function Header() {
         */}
         
           <Logo>
-              
-          <Link href="/">SICK FITS</Link>
-              
+            <Link href="/">SICK FITS</Link> 
           </Logo>
-        
+          <Nav />    
       </div>
 
       <div className="sub-bar">
         <p>Search</p>
       </div>
 
-      <Nav />
     </HeaderStyles>
   );
 }
