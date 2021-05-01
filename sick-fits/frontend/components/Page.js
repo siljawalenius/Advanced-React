@@ -36,9 +36,11 @@ const GlobalStyles = createGlobalStyle`
         --grey: #3a3a3a;
         --lightgrey: #e1e1e1;
         --lightgray: #e1e1e1;
-        --offwhite: #ededed;
+        --lightGray: #e1e1e1;
+        --lightGrey: #e1e1e1;
+        --offWhite: #ededed;
         --maxwidth: 1000px;
-        --bs: 1 12px 24px 0 rgba(0,0,0,0.89);
+        --bs: 0 12px 24px 0 rgba(0,0,0,0.09);
         box-sizing: border-box;
         font-size: 62.5%;
     }
